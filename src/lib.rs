@@ -5,7 +5,7 @@ extern crate libc;
 extern crate log;
 extern crate pretty_env_logger;
 
-use std::mem::PinMut;
+use std::pin::PinMut;
 
 
 use futures::future::{Future, FutureObj};

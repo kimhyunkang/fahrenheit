@@ -6,7 +6,7 @@ use futures::task::Context;
 use AsyncTcpStream;
 use REACTOR;
 use std::io;
-use std::mem::PinMut;
+use std::pin::PinMut;
 
 use futures::Stream;
 
